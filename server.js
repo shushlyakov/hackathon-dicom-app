@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.static('static'));
 app.use((req, res, next) => {
-  const auth = {login: 'dev', password: 'def'};
+  const auth = { login: 'dev', password: 'def' };
   const b64auth = (req.headers.authorization || '').split(' ')[1] || '';
   const [login, password] = new Buffer(b64auth, 'base64').toString().split(':');
 
@@ -16,9 +16,6 @@ app.use((req, res, next) => {
   next()
 });
 
-app.get('/', function(req, res){
-  res.sendFile(__dirname + '/static/_index.html');
-});
 
 app.get('/api', function (req, res) {
   res.send('Hello World!');
