@@ -11,16 +11,16 @@ app.use((req, res, next) => {
   if (!login || !password || login !== auth.login || password !== auth.password) {
     res.set('WWW-Authenticate', 'Basic realm="401"');
     res.status(401).send('Authentication required.');
-    return
+    return;
   }
-  next()
+  next();
 });
 
 
-app.get('/api', function (req, res) {
+app.get('/api', (req, res) => {
   res.send('Hello World!');
 });
 
-app.listen(3000, function () {
+app.listen(3000, () => {
   console.log('Example app listening on port 3000!');
 });
