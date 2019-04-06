@@ -1,0 +1,14 @@
+{
+  "name": "neurohackathon",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dicom-parser": "^1.8.3",
+    "express": "^4.16.4"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:shushlyakov/neurohackathon.git",
+  "license": "MIT"
+}
