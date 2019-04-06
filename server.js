@@ -1,5 +1,6 @@
+const path = require('path');
 const express = require('express');
-const dicomParser = require('./lib/dicom-parser');
+const { parseFileAsync } = require('./lib/dicom-parser');
 
 const app = express();
 
@@ -19,7 +20,8 @@ app.use((req, res, next) => {
 });
 
 
-app.get('/api', (req, res) => {
+app.get('/api/parse', (req, res) => {
+  parseFileAsync(path.join(__dirname, 'data/image-000001.dcm'));
   res.send('Hello World!');
 });
 
