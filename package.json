@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@polymer/iron-ajax": "^3.0.1",
+    "@polymer/paper-spinner": "^3.0.2",
     "@polymer/polymer": "^3.2.0",
     "@vaadin/router": "^1.2.0",
     "@vaadin/vaadin-app-layout": "^1.0.2",
