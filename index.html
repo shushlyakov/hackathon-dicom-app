@@ -9,12 +9,19 @@
   <link href="lib/theme.css" rel="stylesheet">
   <script src="node_modules/dicom-parser/dist/dicomParser.min.js"></script>
   <script src="node_modules/cornerstone-core/dist/cornerstone.min.js"></script>
+  <script src="node_modules/cornerstone-tools/dist/cornerstoneTools.min.js"></script>
   <script src="node_modules/cornerstone-wado-image-loader/dist/cornerstoneWADOImageLoader.min.js"></script>
+  <script src="node_modules/cornerstone-math/dist/cornerstoneMath.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
 <!--  <script src="node_modules/cornerstone-wado-image-loader/dist/cornerstoneWADOImageLoaderWebWorker.min.js"></script>-->
 </head>
 <body>
 <script>
   window.cornerstoneWADOImageLoader.external.cornerstone = cornerstone;
+  window.cornerstoneWADOImageLoader.external.dicomParser = dicomParser;
+  window.cornerstoneTools.external.cornerstoneMath = cornerstoneMath;
+  window.cornerstoneTools.external.cornerstone = cornerstone;
+  window.cornerstoneTools.external.Hammer = Hammer;
 
   const config = {
     webWorkerPath: '/node_modules/cornerstone-wado-image-loader/dist/cornerstoneWADOImageLoaderWebWorker.js',
@@ -28,6 +35,33 @@
   window.cornerstoneWADOImageLoader.webWorkerManager.initialize(config);
 </script>
 <dicom-app></dicom-app>
+<div class="col-md-6">
+  <span>Transfer Syntax: </span><span id="transferSyntax"></span><br>
+  <span>SOP Class: </span><span id="sopClass"></span><br>
+  <span>Samples Per Pixel: </span><span id="samplesPerPixel"></span><br>
+  <span>Photometric Interpretation: </span><span id="photometricInterpretation"></span><br>
+  <span>Number Of Frames: </span><span id="numberOfFrames"></span><br>
+  <span>Planar Configuration: </span><span id="planarConfiguration"></span><br>
+  <span>Rows: </span><span id="rows"></span><br>
+  <span>Columns: </span><span id="columns"></span><br>
+  <span>Pixel Spacing: </span><span id="pixelSpacing"></span><br>
+  <span>Bits Allocated: </span><span id="bitsAllocated"></span><br>
+  <span>Bits Stored: </span><span id="bitsStored"></span><br>
+  <span>High Bit: </span><span id="highBit"></span><br>
+  <span>Pixel Representation: </span><span id="pixelRepresentation"></span><br>
+  <span>WindowCenter: </span><span id="windowCenter"></span><br>
+  <span>WindowWidth: </span><span id="windowWidth"></span><br>
+  <span>RescaleIntercept: </span><span id="rescaleIntercept"></span><br>
+  <span>RescaleSlope: </span><span id="rescaleSlope"></span><br>
+  <span>Basic Offset Table Entries: </span><span id="basicOffsetTable"></span><br>
+  <span>Fragments: </span><span id="fragments"></span><br>
+  <span>Min Stored Pixel Value: </span><span id="minStoredPixelValue"></span><br>
+  <span>Max Stored Pixel Value: </span><span id="maxStoredPixelValue"></span><br>
+  <span>Total Time: </span><span id="totalTime"></span><br>
+  <span>Load Time: </span><span id="loadTime"></span><br>
+  <span>Decode Time: </span><span id="decodeTime"></span><br>
+
+</div>
 <script src="lib/dicom-app.js" type="module"></script>
 </body>
 </html>
