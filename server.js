@@ -1,8 +1,10 @@
 const express = require('express');
+const dicomParser = require('./lib/dicom-parser');
 
 const app = express();
 
 app.use(express.static('static'));
+
 app.use((req, res, next) => {
   const auth = { login: 'dev', password: 'def' };
   const b64auth = (req.headers.authorization || '').split(' ')[1] || '';
