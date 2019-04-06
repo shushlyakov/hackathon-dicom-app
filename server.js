@@ -30,8 +30,9 @@ app.get('/study/get', (req, res) => {
 });
 
 
-app.get('/study/getFile', (req, res) => {
-  res.sendFile(path.join(__dirname, req.query.path));
+app.post('/study/getFile', (req, res) => {
+  console.log(req.body.path)
+  res.sendFile(path.join(__dirname, req.body.path));
 });
 
 

@@ -1,0 +1,6 @@
+:root {
+  /* Typography */
+  --app-font-family:      'Open Sans', Liberation Sans, DejaVu Sans, serif;
+  --app-font-weight:      700;
+  --app-font-size-md:     14px;
+}

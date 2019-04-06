@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>DICOM</title>
+  <base href="/">
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=cyrillic-ext" rel="stylesheet">
@@ -36,7 +37,9 @@
 
   window.cornerstoneWADOImageLoader.webWorkerManager.initialize(config);
 </script>
-<dicom-app></dicom-app>
+<dicom-shell></dicom-shell>
+<script src="lib/dicom-shell.js" type="module"></script>
+
 
 <script src="lib/dicom-app.js" type="module"></script>
 </body>

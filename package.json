@@ -6,7 +6,17 @@
     "start:app": "polymer serve --proxy-path /api --proxy-target http://10.116.118.91:8082"
   },
   "dependencies": {
+    "@polymer/iron-ajax": "^3.0.1",
     "@polymer/polymer": "^3.2.0",
+    "@vaadin/router": "^1.2.0",
+    "@vaadin/vaadin-app-layout": "^1.0.2",
+    "@vaadin/vaadin-button": "^2.1.4",
+    "@vaadin/vaadin-details": "^1.0.1",
+    "@vaadin/vaadin-dialog": "^2.2.1",
+    "@vaadin/vaadin-grid": "^5.3.3",
+    "@vaadin/vaadin-icons": "^4.3.1",
+    "@vaadin/vaadin-list-box": "^1.1.0",
+    "@vaadin/vaadin-tabs": "^2.1.2",
     "@vaadin/vaadin-text-field": "^2.3.6",
     "@vaadin/vaadin-upload": "^4.2.1",
     "cornerstone-core": "^2.2.8",
