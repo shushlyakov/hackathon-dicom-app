@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start:server": "node server.js",
-    "start:app": "polymer serve --proxy-path /api --proxy-target http://10.116.118.91:8082"
+    "start:app": "polymer serve --proxy-path /api --proxy-target http://localhost:8082"
   },
   "dependencies": {
     "@polymer/iron-ajax": "^3.0.1",
@@ -27,6 +27,7 @@
     "express": "^4.16.4",
     "express-fileupload": "^1.1.4",
     "hammerjs": "^2.0.8",
+    "jszip": "^3.2.1",
     "multer": "^1.4.1",
     "polymer-cli": "^1.9.8"
   },
