@@ -1,5 +1,5 @@
 {
-  "shell": "lib/app-shell.js",
+  "shell": "lib/dicom-shell.js",
   "entrypoint": "index.html",
   "npm": true,
   "moduleResolution": "node",
