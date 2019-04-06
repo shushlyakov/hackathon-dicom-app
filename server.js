@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 
 
 app.get('/api/parse', (req, res) => {
-  parseFileAsync(path.join(__dirname, 'data/image-000001.dcm'));
+  parseFileAsync(path.join(__dirname, 'data/01_1/IM000000'));
   res.send('Hello World!');
 });
 
