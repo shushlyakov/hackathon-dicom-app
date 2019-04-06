@@ -5,6 +5,7 @@ const { parseFileAsync } = require('./lib/dicom-parser');
 const app = express();
 
 app.use(express.static('static'));
+app.use('/node_modules', express.static('node_modules'));
 
 app.use((req, res, next) => {
   const auth = { login: 'dev', password: 'def' };
@@ -17,6 +18,11 @@ app.use((req, res, next) => {
     return;
   }
   next();
+});
+
+
+app.post('/upload', (req, res) => {
+  console.log(req.files);
 });
 
 
