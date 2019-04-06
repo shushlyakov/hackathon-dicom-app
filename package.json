@@ -2,14 +2,19 @@
   "name": "neurohackathon",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js"
+    "start:server": "node server.js",
+    "start:app": "polymer serve --proxy-path /api --proxy-target http://10.116.118.91:8082"
   },
   "dependencies": {
+    "@polymer/polymer": "^3.2.0",
+    "@vaadin/vaadin-text-field": "^2.3.6",
     "@vaadin/vaadin-upload": "^4.2.1",
+    "cornerstone-core": "^2.2.8",
     "cornerstone-wado-image-loader": "^2.2.3",
     "dicom-parser": "^1.8.3",
     "express": "^4.16.4",
-    "express-fileupload": "^1.1.4"
+    "express-fileupload": "^1.1.4",
+    "multer": "^1.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
