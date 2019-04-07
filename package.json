@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start:server": "node server.js",
-    "start:app": "polymer serve --proxy-path /api --proxy-target http://localhost:8082",
+    "start:app": "polymer serve --hostname 0.0.0.0 --proxy-path /api --proxy-target http://0.0.0.0:8082",
     "serve": "npm run start:server & npm run start:app"
   },
   "dependencies": {
