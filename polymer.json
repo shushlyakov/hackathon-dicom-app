@@ -4,7 +4,14 @@
   "npm": true,
   "moduleResolution": "node",
   "sources": ["lib/**"],
-  "extraDependencies": [],
+  "extraDependencies": [
+    "node_modules/@webcomponents/webcomponentsjs/bundles/**",
+    "node_modules/dicom-parser/dist/**",
+    "node_modules/cornerstone-core/dist/**",
+    "node_modules/cornerstone-math/dist/**",
+    "node_modules/cornerstone-tools/dist/**",
+    "node_modules/cornerstone-wado-image-loader/dist/**"
+  ],
   "builds": [{
     "name": "es6prod",
     "preset": "es6-bundled",
