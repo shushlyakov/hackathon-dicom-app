@@ -18,3 +18,12 @@ Serve:
 ```
 $ npm run serve
 ```
+
+## Docker:
+
+```
+docker build -t dicom_web:latest .
+
+docker run -p 49160:8081 -d dicom_web
+
+```
