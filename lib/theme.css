@@ -4,3 +4,9 @@
   --app-font-weight:      700;
   --app-font-size-md:     14px;
 }
+body {
+  transition: opacity 0.2s;
+}
+body.notDefined {
+  opacity: 0;
+}
