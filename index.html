@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>DICOM</title>
-  <base href="/">
+  <base href="/dicom">
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=cyrillic-ext" rel="stylesheet">
-  <link href="lib/theme.css" rel="stylesheet">
-  <script src="node_modules/dicom-parser/dist/dicomParser.min.js"></script>
-  <script src="node_modules/cornerstone-core/dist/cornerstone.min.js"></script>
-  <script src="lib/cornerstoneTools.js"></script>
-  <script src="node_modules/cornerstone-wado-image-loader/dist/cornerstoneWADOImageLoader.min.js"></script>
-  <script src="node_modules/cornerstone-math/dist/cornerstoneMath.min.js"></script>
+  <link href="/lib/theme.css" rel="stylesheet">
+  <script src="/node_modules/dicom-parser/dist/dicomParser.min.js"></script>
+  <script src="/node_modules/cornerstone-core/dist/cornerstone.min.js"></script>
+  <script src="/lib/cornerstoneTools.js"></script>
+  <script src="/node_modules/cornerstone-wado-image-loader/dist/cornerstoneWADOImageLoader.min.js"></script>
+  <script src="/node_modules/cornerstone-math/dist/cornerstoneMath.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
-  <script src="node_modules/jszip/dist/jszip.min.js"></script>
+  <script src="/node_modules/jszip/dist/jszip.min.js"></script>
 <!--  <script src="node_modules/cornerstone-wado-image-loader/dist/cornerstoneWADOImageLoaderWebWorker.min.js"></script>-->
 </head>
 <body>
@@ -39,9 +39,9 @@
   window.cornerstoneWADOImageLoader.webWorkerManager.initialize(config);
 </script>
 <dicom-shell></dicom-shell>
-<script src="lib/dicom-shell.js" type="module"></script>
+<script src="/lib/dicom-shell.js" type="module"></script>
 
 
-<script src="lib/dicom-app.js" type="module"></script>
+<script src="/lib/dicom-app.js" type="module"></script>
 </body>
 </html>
