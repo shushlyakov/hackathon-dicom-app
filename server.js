@@ -14,6 +14,32 @@ const database = {
   studies: [{"value":"Исследование МРТ головного мозга 12.02.2019","files":[{"fieldname":"files","originalname":"IM000021","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"26580390cba056eaa2c8856f862b0a3b","path":"temp/uploads/26580390cba056eaa2c8856f862b0a3b","size":569546},{"fieldname":"files","originalname":"IM000020","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"82fdc23b13e74a3992b53034892d0109","path":"temp/uploads/82fdc23b13e74a3992b53034892d0109","size":569540},{"fieldname":"files","originalname":"IM000019","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"a306217dcfd04fd81bdd3f0b743d9103","path":"temp/uploads/a306217dcfd04fd81bdd3f0b743d9103","size":569546},{"fieldname":"files","originalname":"IM000018","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"60542df5285c6660e8dd113d28dd6b4c","path":"temp/uploads/60542df5285c6660e8dd113d28dd6b4c","size":569540},{"fieldname":"files","originalname":"IM000017","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"a71bd20e7e37827bdbfe5fecc7410c87","path":"temp/uploads/a71bd20e7e37827bdbfe5fecc7410c87","size":569548},{"fieldname":"files","originalname":"IM000016","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"096631621d5583b28f1750b92f8e7a32","path":"temp/uploads/096631621d5583b28f1750b92f8e7a32","size":569542},{"fieldname":"files","originalname":"IM000015","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"8dc1a66b14034a4293f7649f7610e8ca","path":"temp/uploads/8dc1a66b14034a4293f7649f7610e8ca","size":569546},{"fieldname":"files","originalname":"IM000014","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"0b47e61d400bd7c28bf463f28458310c","path":"temp/uploads/0b47e61d400bd7c28bf463f28458310c","size":569540},{"fieldname":"files","originalname":"IM000013","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"7cfaf2ad97aa8891efcab21d6bff71da","path":"temp/uploads/7cfaf2ad97aa8891efcab21d6bff71da","size":569544},{"fieldname":"files","originalname":"IM000012","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"11fb0b145d5ac1fee407c3115e595151","path":"temp/uploads/11fb0b145d5ac1fee407c3115e595151","size":569538},{"fieldname":"files","originalname":"IM000011","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"85b8110f17c9d3930a3483d144e66e55","path":"temp/uploads/85b8110f17c9d3930a3483d144e66e55","size":569546},{"fieldname":"files","originalname":"IM000010","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"393b0869a708b0cfc79219785eed9362","path":"temp/uploads/393b0869a708b0cfc79219785eed9362","size":569540},{"fieldname":"files","originalname":"IM000009","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"a564181d1e93124dec67751ff2ea171b","path":"temp/uploads/a564181d1e93124dec67751ff2ea171b","size":569548},{"fieldname":"files","originalname":"IM000008","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"0ebe2579beed2466455544bf483ff269","path":"temp/uploads/0ebe2579beed2466455544bf483ff269","size":569542},{"fieldname":"files","originalname":"IM000007","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"ba7a616b064f850f27a26bfb58d3b5d4","path":"temp/uploads/ba7a616b064f850f27a26bfb58d3b5d4","size":569552},{"fieldname":"files","originalname":"IM000006","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"2f034cb4114f0b6cd07ab65bc236a8b1","path":"temp/uploads/2f034cb4114f0b6cd07ab65bc236a8b1","size":569546},{"fieldname":"files","originalname":"IM000005","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"e194d4e9605c344cb790c4df238a7a0d","path":"temp/uploads/e194d4e9605c344cb790c4df238a7a0d","size":569550},{"fieldname":"files","originalname":"IM000004","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"48d03b4b9c54a22eb224d0e15f4828b0","path":"temp/uploads/48d03b4b9c54a22eb224d0e15f4828b0","size":569546},{"fieldname":"files","originalname":"IM000003","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"4463c4817423d72d083ec778f9b5ed30","path":"temp/uploads/4463c4817423d72d083ec778f9b5ed30","size":569552},{"fieldname":"files","originalname":"IM000002","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"8d2059c5198c353f3ead6a3f3809742f","path":"temp/uploads/8d2059c5198c353f3ead6a3f3809742f","size":569544},{"fieldname":"files","originalname":"IM000001","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"504307acb7209ca325e802e30643a45f","path":"temp/uploads/504307acb7209ca325e802e30643a45f","size":569554},{"fieldname":"files","originalname":"IM000000","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"6d1394bd3b59d24b31df9376e4be4276","path":"temp/uploads/6d1394bd3b59d24b31df9376e4be4276","size":569542}],"id":1},{"value":"Исследование МРТ головного мозга 29.03.2019","files":[{"fieldname":"files","originalname":"IM000021","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"b797c5e8212aaffcf30ae1d8371a1a5b","path":"temp/uploads/b797c5e8212aaffcf30ae1d8371a1a5b","size":570016},{"fieldname":"files","originalname":"IM000020","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"29a3d72c70ff0a1b09b1db75786294f7","path":"temp/uploads/29a3d72c70ff0a1b09b1db75786294f7","size":570008},{"fieldname":"files","originalname":"IM000019","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"c66565c253d5164345de69d4403557ca","path":"temp/uploads/c66565c253d5164345de69d4403557ca","size":570014},{"fieldname":"files","originalname":"IM000018","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"f5f0a55404574635609a5fc0a99655a1","path":"temp/uploads/f5f0a55404574635609a5fc0a99655a1","size":570010},{"fieldname":"files","originalname":"IM000017","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"c789a501683f370b7e83e6bb2fca40e3","path":"temp/uploads/c789a501683f370b7e83e6bb2fca40e3","size":570018},{"fieldname":"files","originalname":"IM000016","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"9f4d22a49ecf04d485927fb4b5f82979","path":"temp/uploads/9f4d22a49ecf04d485927fb4b5f82979","size":570010},{"fieldname":"files","originalname":"IM000015","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"17e6fd09b69b3b63c7fabf745a16c610","path":"temp/uploads/17e6fd09b69b3b63c7fabf745a16c610","size":570018},{"fieldname":"files","originalname":"IM000014","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"58076bed108530fe13f8b1a433068726","path":"temp/uploads/58076bed108530fe13f8b1a433068726","size":570010},{"fieldname":"files","originalname":"IM000013","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"df803ac112181ca18bda9658d5d43871","path":"temp/uploads/df803ac112181ca18bda9658d5d43871","size":570014},{"fieldname":"files","originalname":"IM000012","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"7d433ad4b83669b68cdf452fadb8302d","path":"temp/uploads/7d433ad4b83669b68cdf452fadb8302d","size":570012},{"fieldname":"files","originalname":"IM000011","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"80b20a3189d43e8918ca24294f3326b3","path":"temp/uploads/80b20a3189d43e8918ca24294f3326b3","size":570016},{"fieldname":"files","originalname":"IM000010","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"d3950fab3f0710ad203d7dfa07f42142","path":"temp/uploads/d3950fab3f0710ad203d7dfa07f42142","size":570010},{"fieldname":"files","originalname":"IM000009","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"fd608f1aba9be288d274867e4bd0837b","path":"temp/uploads/fd608f1aba9be288d274867e4bd0837b","size":570016},{"fieldname":"files","originalname":"IM000008","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"aabf7963f342ee49c8591556af001d06","path":"temp/uploads/aabf7963f342ee49c8591556af001d06","size":570014},{"fieldname":"files","originalname":"IM000007","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"3fb86e1dcecb74345958375e9873f786","path":"temp/uploads/3fb86e1dcecb74345958375e9873f786","size":570018},{"fieldname":"files","originalname":"IM000006","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"6a4dfde7514cadb17c2dda510e62f2c8","path":"temp/uploads/6a4dfde7514cadb17c2dda510e62f2c8","size":570016},{"fieldname":"files","originalname":"IM000005","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"1fed162b88a4d06ff3e0e5d8743a191d","path":"temp/uploads/1fed162b88a4d06ff3e0e5d8743a191d","size":570020},{"fieldname":"files","originalname":"IM000004","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"76ecf807b74482e151d393d18b664fbb","path":"temp/uploads/76ecf807b74482e151d393d18b664fbb","size":570016},{"fieldname":"files","originalname":"IM000003","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"9c2894effa6bda8e9cd89bea15b01199","path":"temp/uploads/9c2894effa6bda8e9cd89bea15b01199","size":570016},{"fieldname":"files","originalname":"IM000002","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"da5ef6ae6429774d587353e68bef8834","path":"temp/uploads/da5ef6ae6429774d587353e68bef8834","size":570014},{"fieldname":"files","originalname":"IM000001","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"6c8ebe42dc393cf275078d2263bb03cf","path":"temp/uploads/6c8ebe42dc393cf275078d2263bb03cf","size":570018},{"fieldname":"files","originalname":"IM000000","encoding":"7bit","mimetype":"application/octet-stream","destination":"temp/uploads/","filename":"25c35eeff0dfd9d62caeedf34b6ec9e1","path":"temp/uploads/25c35eeff0dfd9d62caeedf34b6ec9e1","size":570012}],"id":2}]
 };
 
+app.post('/dicom/api/upload', upload.array('files'), (req, res) => {
+  res.send(JSON.stringify(req.files[0]));
+});
+
+app.use(express.json());
+
+app.get('/dicom/api/study/list', (req, res) => {
+  res.send(JSON.stringify(database.studies));
+});
+
+app.get('/dicom/api/study/get', (req, res) => {
+  res.send(JSON.stringify(database.studies.find(i => i.id === +req.query.id)));
+});
+
+
+app.post('/dicom/api/study/getFile', (req, res) => {
+  res.sendFile(path.join(__dirname, req.body.path));
+});
+
+
+app.post('/dicom/api/study/add', (req, res) => {
+  req.body.id = ++nextId;
+  database.studies.push(req.body);
+  res.sendStatus(200);
+});
+
 app.get('/dicom', (req, res) => {
   res.sendFile(path.join(__dirname, 'build/es6prod', 'index.html'), 'utf-8');
 });
@@ -36,32 +62,7 @@ app.get('/dicom/*', (req, res) => {
 
 app.use('/node_modules', express.static('node_modules'));
 
-app.post('/api/upload', upload.array('files'), (req, res) => {
-  res.send(JSON.stringify(req.files[0]));
-});
 
-app.use(express.json());
-
-app.get('/api/study/list', (req, res) => {
-  res.send(JSON.stringify(database.studies));
-});
-
-app.get('/api/study/get', (req, res) => {
-  res.send(JSON.stringify(database.studies.find(i => i.id === +req.query.id)));
-});
-
-
-app.post('/api/study/getFile', (req, res) => {
-  console.log(req.body.path)
-  res.sendFile(path.join(__dirname, req.body.path));
-});
-
-
-app.post('/api/study/add', (req, res) => {
-  req.body.id = ++nextId;
-  database.studies.push(req.body);
-  res.sendStatus(200);
-});
 
 app.listen(8082, () => {
   console.log('Example app listening on port 8082!');
