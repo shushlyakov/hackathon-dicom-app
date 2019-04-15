@@ -1,0 +1,51 @@
+{
+  "entrypoint": "index.html",
+  "shell": "lib/dicom-shell.js",
+  "fragments": [],
+  "sources": [
+    "lib/**",
+    "index.html",
+    "lib/dicom-shell.js"
+  ],
+  "extraDependencies": [
+    "bower_components/webcomponentsjs/*.js",
+    "node_modules/@webcomponents/webcomponentsjs/**",
+    "node_modules/dicom-parser/dist/**",
+    "node_modules/cornerstone-core/dist/**",
+    "node_modules/cornerstone-math/dist/**",
+    "node_modules/cornerstone-tools/dist/**",
+    "node_modules/cornerstone-wado-image-loader/dist/**",
+    "node_modules/jszip/dist/**"
+  ],
+  "builds": [
+    {
+      "name": "es6prod",
+      "browserCapabilities": [
+        "es2015"
+      ],
+      "js": {
+        "minify": true,
+        "compile": "es2015",
+        "transformModulesToAmd": true
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      },
+      "bundle": true,
+      "addServiceWorker": true,
+      "addPushManifest": false,
+      "preset": "es6-bundled"
+    }
+  ],
+  "lint": {
+    "warningsToIgnore": [
+      "could-not-resolve-reference"
+    ]
+  },
+  "npm": true,
+  "componentDir": "node_modules/",
+  "moduleResolution": "node"
+}
