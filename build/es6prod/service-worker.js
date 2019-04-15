@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["index.html","466855ae4531258daab1a5a92c9a9d82"],["lib/dicom-shell.js","ca8a6f4acfc3a16c652961dd82c225fa"]];
+var precacheConfig = [["index.html","466855ae4531258daab1a5a92c9a9d82"],["lib/dicom-shell.js","03534ae551a066193b84da51aa8016a1"]];
 var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');
 
 

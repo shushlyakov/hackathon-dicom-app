@@ -4543,7 +4543,7 @@ define(["exports","meta"],function(_exports,meta){"use strict";Object.defineProp
         }
       </style>
       
-      <el-button class="add-button" href="/" on-click="_save">Save</el-button>
+      <el-button class="add-button" href="/dicom" on-click="_save">Save</el-button>
       
       <div class="container">
         <vaadin-text-field label="Name" value="{{value}}" autofocus></vaadin-text-field>
